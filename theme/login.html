@@ -4,13 +4,13 @@
         <title>Login</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="/docs-static/css/default.basic.css" />
-        <link rel="stylesheet" type="text/css" href="/static/authentication_service/css/theme.feature.css" />
+        <link rel="stylesheet" type="text/css" href="/static/authentication_service/themes/yegna/css/yegna.feature.css" />
         <script type="text/javascript">
             var CutsTheMustard = 'querySelector' in document && 'localStorage' in window && 'addEventListener' in window;
             if (CutsTheMustard) {
                 /* COMMENT THE BELOW OUT TO ONLY LOOK AT FEATURE PHONE, OR DISABLE JAVASCRIPT IN YOUR BROWSER */
                 document.write('<link rel="stylesheet" type="text/css" href="/docs-static/css/default.enhanced.css" />');
-                document.write('<link rel="stylesheet" type="text/css" href="/static/authentication_service/css/theme.enhanced.css" />');
+                document.write('<link rel="stylesheet" type="text/css" href="/static/authentication_service/themes/yegna/css/yegna.enhanced.css" />');
             }
         </script>
     </head>
@@ -27,7 +27,7 @@
                     </div>
                     <div class="Header-links"></div>
                 </div><!--/header-->
-                
+
                 <div id="content" class="Content">
                     <form method="post" class="Form">
                         <div class=" Form-item Field UsernameField  Field--required ">
@@ -39,7 +39,7 @@
                         </div>
                         <div class=" Form-item Field CharField  Field--required ">
                             <label class=" Field-label" for="id_auth-password">Password:</label>
-                            <div class="Field-item"> 
+                            <div class="Field-item">
                                 <input type="password" name="auth-password" required="required" id="id_auth-password" class=" PasswordInput " />
                             </div>
                             <div class="Field-message"></div>
@@ -52,11 +52,11 @@
                         Forgot password? <a href="/reset-password/">Click here to reset it.</a>
                     </p>
                 </div><!--/content-->
-                
+
                 <div id="footer" class="Footer">
                     <p>&copy; Girl Effect | Company No.07516619 | Charity No.1141155</p>
                 </div><!--/footer-->
-                
+
             </div><!--/container-->
         </div><!--/wrap-->
     </body>
