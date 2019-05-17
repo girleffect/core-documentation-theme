@@ -1,3 +1,6 @@
+## Note: Theming repository is slightly behind the Core Authentication Service repository
+
+
 # Girl Effect Theming
 
 This theming pack will assist developers with theming the core authentication service.
@@ -33,7 +36,7 @@ You can now navigate to the URL in your terminal
 
 ## Advanced
 
-The core authentication service's view layer uses Django templating. This means we can overwrite some of the templates 
+The core authentication service's view layer uses Django templating. This means we can overwrite some of the templates
 completely, and have different HTML altogether. This approach will take longer to implement, but is possible.
 
 ## Note
